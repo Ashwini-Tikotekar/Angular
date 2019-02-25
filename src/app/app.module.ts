@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './component/login/login.component';
 import { RegistrationComponent } from './component/registration/registration.component';
 import { AppMaterialModule } from './app.material.module';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -17,6 +18,7 @@ import { AppMaterialModule } from './app.material.module';
     AppComponent,
     LoginComponent,
     RegistrationComponent,
+    HomeComponent,
     
   ],
   imports: [

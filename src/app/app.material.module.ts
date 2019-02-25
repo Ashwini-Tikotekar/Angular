@@ -8,6 +8,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatCardModule} from'@angular/material/card';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatToolbarModule} from '@angular/material/toolbar';
+
 
 
 
@@ -27,8 +31,9 @@ import { HttpClientModule } from '@angular/common/http';
     MatInputModule,
     MatCardModule,
     HttpClientModule,
-
-  
+    MatMenuModule,
+    MatSidenavModule,
+    MatToolbarModule
   ],
   exports:[
     MatFormFieldModule,
@@ -40,8 +45,9 @@ import { HttpClientModule } from '@angular/common/http';
     MatInputModule,
     MatCardModule,
     MatIconModule,
-    HttpClientModule
-
+    HttpClientModule,
+    MatMenuModule,
+    MatToolbarModule
   ]
 })
 export class AppMaterialModule { }

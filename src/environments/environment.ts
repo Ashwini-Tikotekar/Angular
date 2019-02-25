@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
     
-base_url : 'http://localhost:8080/FundooN1/'
+base_url : 'http://localhost:8080/user/'
 };
 
 /*
